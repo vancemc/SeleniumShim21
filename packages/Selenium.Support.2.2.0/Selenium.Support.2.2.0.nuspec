@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Selenium.Support</id>
+    <version>2.2.0</version>
+    <title>Selenium WebDriver Support Classes</title>
+    <authors>Selenium Committers</authors>
+    <owners>Selenium Committers</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://code.google.com/p/selenium/</projectUrl>
+    <iconUrl>http://seleniumhq.org/images/big-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Support classes for the .NET bindings of the Selenium WebDriver API</description>
+    <summary>Support classes for the .NET bindings of the Selenium WebDriver API</summary>
+    <tags>Selenium WebDriver automation testing</tags>
+    <dependencies>
+      <dependency id="Selenium.WebDriver" version="2.2.0" />
+      <dependency id="Castle.Core" version="2.5.2" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework2.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
